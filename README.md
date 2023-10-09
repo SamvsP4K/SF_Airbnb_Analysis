@@ -40,27 +40,27 @@ The following queries provided the answers to the above questions.
 
 ### Findings:
 
-**The findings can be found in the "query_data" folder of this repository.**
+### **The findings can be found in the "query_data" folder of this repository.**
 
-1. What are the most popular stays according to availability?
+**1. What are the most popular stays according to availability?**
 
 This was a tough measure to accurately get. There were many listings with 0 availability left out of 365 days in the year. However, this data does not make it clear if it is because they are fully booked out or there is no availability due to bookings being paused or stopped. So using 0 was not the most reliable. For that reason I used 1 as the minimum value here. It was a guarantee that the listing is active with at least one day of the year still available. The query used looked for anything less that 50 and greater than or equal to at least 1 day available. There were a total of 765 airbnbs within these bounds but only 42 of them has just one day left available.
 
-2. Highest priced nieghborhood?
+**2. Highest priced nieghborhood?**
 
 The top 3 most expensive neighborhoods are:
 *the Financial District with an average price of $1118.69 per night
 *Chinatown with an average price of $1045.73 per night
 *Downtown/Civic Center with an average price of 684.06 per night.
 
-3. Which neighborhood has the highest concentration of airbnb listings?
+**3. Which neighborhood has the highest concentration of airbnb listings?**
 
 The top 3 neighborhoods with the highest concentration of airbnbs are:
 *Downtown/Civic Center with 866 listings
 *The Mission Districtn with 657 listings
 *South of Market with 549 listings
 
-5. What is the most common room types?
+**4. What is the most common room types?**
    
 The most common room types are:
 *Entire homes or apartments with a count of 4842
@@ -68,7 +68,7 @@ The most common room types are:
 *Shared rooms with a count of 69
 *Hotel rooms with a count of 49
 
-7. Total number of airbnbs in SF?
+**5. Total number of airbnbs in SF?**
 
 The total number of airbnbs in SF according to this data is 7418
 
