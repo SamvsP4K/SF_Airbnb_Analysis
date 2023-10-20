@@ -3,6 +3,12 @@
 ### Purpose:
 To purpose of this analysis is to explore the airbnb market in San Francisco. This will be updated in the future  to include an analysis of NYC airbnb data to compare data points
 
+##### Repository Data
+SQL_queries: Includes the queries used this project
+colab_ipynb: Includes the SQLAlchemy script for importing CSV files into Postgres
+original_data: Includes the original raw CSV with no changes or edits
+query_data: Includes the exported results of the SQL queries
+
 ### Data:
 The data was obtained from a website called Inside Airbnb
 LINK: [Inside Airbnb](http://insideairbnb.com/get-the-data) http://insideairbnb.com/get-the-data)
